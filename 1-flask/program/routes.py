@@ -10,3 +10,7 @@ def index():
 def p100Days():
     return render_template('100Days.html')
 
+@app.route('/notes')
+def notes():
+    return render_template('notes.html')
+
